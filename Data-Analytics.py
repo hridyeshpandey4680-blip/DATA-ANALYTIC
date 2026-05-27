@@ -82,3 +82,50 @@ print(number)
 
 num=number+float(number)
 print(num)
+
+
+#This is First Program in Python
+first_num=input("Enter first number: ")
+second_num=input("Enter second number: ")
+sum=first_num+second_num  
+#print(sum)
+print("sum is: " + sum)
+
+
+first_num=input("first number ")
+second_num=input("second number ")
+sum=int (first_num) + int (second_num)
+#print(sum)
+#print("sum is : " + sum)
+print("sum is : " + str (sum))
+
+
+
+#Operation on String
+name= "Hridyesh Kumar Pandey"
+print(name)
+
+print(name.upper())
+
+print(name.lower())
+
+print(name.find('i')) #return location starting from 0.
+
+print(name.find('Hridyesh'))
+
+print(name.find('e'))
+
+print(name.find('Pandey'))
+
+print(name.replace("Hridyesh Kumar Pandey" , "Pandey ji"))
+print(name)
+
+
+print(name.replace("Hridyesh" , "Mr. Hridyesh"))
+
+
+print(name.replace("p" , "pa"))
+
+print("t" in name)
+
+print("h" in name)
